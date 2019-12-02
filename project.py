@@ -50,7 +50,7 @@ i = str(input(""))
 if i == "q":
     print("No employees were entered")
 else:
-    y=0
+    
     lst = []
     while i != "q":
         while i == "1":
@@ -59,7 +59,7 @@ else:
             e.get_input()
             
             lst.append(e)
-            y += 1
+            
             print()
             print("1: Enter an employee")
             print("2: Print employee list")
